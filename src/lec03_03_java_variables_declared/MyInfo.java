@@ -24,15 +24,4 @@ public class MyInfo {
 				+ myGender + "\nMy height: " + myHeight + "\nMy Grade: " + myGrade + "\nUS citizen? : " + usCitizen);
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
