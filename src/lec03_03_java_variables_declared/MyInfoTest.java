@@ -46,6 +46,7 @@ public class MyInfoTest {
 		System.out.println("\n");
 		MyInfo unknown = new MyInfo();
 		unknown.myInfo();
+		
 		/*
 		 You must know it:
 		 Default value of String is null 
