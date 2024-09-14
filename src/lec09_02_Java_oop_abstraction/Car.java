@@ -27,7 +27,7 @@ public interface Car extends Taxi, Truck{
 	// No, we must have to initialize
 	// Interview question: what is the feature of variable that can be used inside Interface?
 	// the variables inside Interface are static and final in nature.
-	public static final int year = 1880;
+	public static final int YEAR = 1880;
 	// final means you can't change the value of this variable
 	// static is a local member of this Interface, other Interface/class can't call it
 	
