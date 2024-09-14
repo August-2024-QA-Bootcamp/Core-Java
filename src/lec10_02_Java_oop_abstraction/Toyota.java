@@ -1,4 +1,4 @@
-package lec09_02_Java_oop_abstraction;
+package lec10_02_Java_oop_abstraction;
 
 // A regular class
 // A regular class can inherit only one (regular class or one abstract class) by extends keyword
@@ -72,10 +72,11 @@ public class Toyota extends ElectricCar implements Car, Drone {
 		System.out.println(m);
 		return m;	
 	}
-
+	
 	@Override
-	public void lightWeight() {
-		System.out.println("lightWeight method from Drone Interface");		
+	public void brake(String brakeName) {
+		String m = "brake method from Car Interface";
+		System.out.println(m);
 	}
 
 	@Override
@@ -95,14 +96,14 @@ public class Toyota extends ElectricCar implements Car, Drone {
 	}
 
 	@Override
-	public void brake(String brakeName) {
-		String m = "brake method from Car Interface";
-		System.out.println(m);
+	public void autoPilot() {
+		System.out.println("autoPilot method from Flying Car Abstract class");		
 	}
 
 	@Override
-	public void autoPilot() {
-		System.out.println("autoPilot method from Flying Car Abstract class");		
+	public void lightWeight() {
+		System.out.println("lightWeight method from Drone Interface");	
+		
 	}
 
 }
