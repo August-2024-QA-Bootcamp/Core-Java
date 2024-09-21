@@ -57,6 +57,7 @@ public class Employee extends MountSinai{
 	}
 	
 	// void type or no return method or non parameterized method
+	// Super keyword is not used in the static  Method
 	public void empInfo() {
 		// Inside a method of the child class, we can't call "Constructor" of super class by super().
 		// super();
