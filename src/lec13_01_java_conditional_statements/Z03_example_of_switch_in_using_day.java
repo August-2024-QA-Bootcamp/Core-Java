@@ -41,7 +41,7 @@ public class Z03_example_of_switch_in_using_day {
 			break;
 
 		default:
-			System.out.println("Please put a valid Number for the Day!!");
+			menu = "N/A";
 			break;
 		}
 		
