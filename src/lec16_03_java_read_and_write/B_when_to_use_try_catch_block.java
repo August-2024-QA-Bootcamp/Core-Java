@@ -17,3 +17,5 @@ public class B_when_to_use_try_catch_block {
 	}
 
 }
+
+// before ArrayList class, everyone should see Array before come to class
