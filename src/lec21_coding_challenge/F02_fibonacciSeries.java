@@ -1,4 +1,4 @@
-package lec20_coding_challenge;
+package lec21_coding_challenge;
 
 import java.util.Arrays;
 
